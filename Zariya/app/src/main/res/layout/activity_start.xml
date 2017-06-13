@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gandhi"
+    tools:context="com.app.mgnrega.mgnregaapp.StartActivity">
+
+    <Button
+        android:id="@+id/button_applicant"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="122dp"
+        android:background="#d37070"
+        android:text="Applicant"
+        tools:layout_editor_absoluteX="147dp"
+        tools:layout_editor_absoluteY="130dp"
+        android:layout_above="@+id/button_official"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/button_official"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="181dp"
+        android:background="#d37070"
+        android:text="Government Official"
+        tools:layout_editor_absoluteX="102dp"
+        tools:layout_editor_absoluteY="278dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        app:srcCompat="@drawable/front"
+        android:layout_alignBottom="@+id/button_applicant"
+        android:layout_toStartOf="@+id/button_official"
+        android:layout_marginBottom="22dp" />
+
+</RelativeLayout>

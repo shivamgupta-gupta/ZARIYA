@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "1053940252788",
+    "firebase_url": "https://mgnrega-app-ff600.firebaseio.com",
+    "project_id": "mgnrega-app-ff600",
+    "storage_bucket": "mgnrega-app-ff600.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1053940252788:android:2d2ac8fc42a5ab24",
+        "android_client_info": {
+          "package_name": "com.app.mgnrega.mgnregaapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1053940252788-dgo48h3c49lm42cbfbck68er7kvjo1lt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAbTlMK9_GgxapxaacABDYKib2ErRzCd54"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
