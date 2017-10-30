@@ -8,7 +8,7 @@ public class ApplicationFormDetails {
 
     public String applicant_name;
     public String applicant_id;
-    public String applicant_area;
+    public String aplicant_area;
     public String applicant_from_date;
     public String applicant_to_date;
     public String mob;
@@ -60,12 +60,7 @@ public class ApplicationFormDetails {
     }
 
     public void setApplicant_from_date(String applicant_from_date) {
-        this.applicant_from_date
-
-
-
-
-                = applicant_from_date;
+        this.applicant_from_date = applicant_from_date;
     }
 
     public String getApplicant_to_date() {
